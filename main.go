@@ -1,7 +1,12 @@
 package main
 
-import "github.com/ashkrishan/channeltest/examples"
+import (
+	"github.com/ashkrishan/channeltest/deadlockchallenge"
+)
 
 func main() {
-	examples.MultiChannel()
+	// examples.MultiChannel()
+	// deadlockchallenge.DeadlockChallenge1()
+	// deadlockchallenge.DeadlockChallenge2()
+	deadlockchallenge.FactorialChallenge()
 }
